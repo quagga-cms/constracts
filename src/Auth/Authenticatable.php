@@ -1,6 +1,6 @@
 <?php
 
-namespace Quagga\Constracts\Auth;
+namespace Quagga\Contracts\Auth;
 
 interface Authenticatable
 {

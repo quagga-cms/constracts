@@ -1,6 +1,6 @@
 <?php
 
-namespace Quagga\Constracts\Auth;
+namespace Quagga\Contracts\Auth;
 
 interface Factory
 {
@@ -8,7 +8,7 @@ interface Factory
      * Get a guard instance by name.
      *
      * @param  string|null  $name
-     * @return \Quagga\Constracts\Auth\Guard|\Quagga\Constracts\Auth\StatefulGuard
+     * @return \Quagga\Contracts\Auth\Guard|\Quagga\Contracts\Auth\StatefulGuard
      */
     public function guard($name = null);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Quagga\Constracts\Assets;
+namespace Quagga\Contracts\Assets;
 
 use Quagga\Quagga\Assets\AssetUrl;
 

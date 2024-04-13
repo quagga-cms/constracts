@@ -1,8 +1,8 @@
 <?php
 
-namespace Quagga\Constracts\Assets;
+namespace Quagga\Contracts\Assets;
 
-use Quagga\Constracts\AssetTypeEnum;
+use Quagga\Contracts\AssetTypeEnum;
 use Quagga\Quagga\Assets\AssetOptions;
 
 interface AssetConstract

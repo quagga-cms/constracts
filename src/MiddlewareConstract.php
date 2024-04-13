@@ -1,6 +1,6 @@
 <?php
 
-namespace Quagga\Constracts;
+namespace Quagga\Contracts;
 
 use Psr\Http\Server\MiddlewareInterface;
 

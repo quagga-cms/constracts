@@ -1,6 +1,6 @@
 <?php
 
-namespace Quagga\Constracts\Auth;
+namespace Quagga\Contracts\Auth;
 
 interface StatefulGuard
 {
@@ -21,7 +21,7 @@ interface StatefulGuard
     /**
      * Get the currently authenticated user.
      *
-     * @return \Quagga\Constracts\Auth\Authenticatable|null
+     * @return \Quagga\Contracts\Auth\Authenticatable|null
      */
     public function user();
 
@@ -43,7 +43,7 @@ interface StatefulGuard
     /**
      * Set the current user.
      *
-     * @param  \Quagga\Constracts\Auth\Authenticatable  $user
+     * @param  \Quagga\Contracts\Auth\Authenticatable  $user
      * @return void
      */
     public function setUser(Authenticatable $user);
