@@ -6,7 +6,8 @@
     "autoload": {
         "psr-4": {
             "Quagga\\Contracts\\": "src/",
-            "Illuminate\\Contracts\\Container\\": "src/Container/"
+            "Illuminate\\Contracts\\Container\\": "src/Container/",
+            "Illuminate\\Contracts\\Support\\": "src/Support/"
         }
     },
     "authors": [
