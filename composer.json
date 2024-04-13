@@ -1,6 +1,6 @@
 {
     "name": "quagga/contracts",
-    "description": "The Quagga framework constracts",
+    "description": "The Quagga framework contracts",
     "type": "library",
     "license": "MIT",
     "autoload": {
