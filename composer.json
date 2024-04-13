@@ -13,6 +13,10 @@
         {
             "name": "Puleeno",
             "email": "puleeno@gmail.com"
+        },
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
         }
     ],
     "minimum-stability": "dev",
