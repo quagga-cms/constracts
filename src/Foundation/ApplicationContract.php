@@ -1,5 +1,7 @@
 <?php
+
 namespace Quagga\Contracts\Foundation;
 
-interface ApplicationContract {
+interface ApplicationContract
+{
 }
