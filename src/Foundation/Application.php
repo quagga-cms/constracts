@@ -2,7 +2,7 @@
 
 namespace Quagga\Contracts\Foundation;
 
-interface ApplicationContract
+interface Application
 {
     /**
      * Register a new "booted" listener.
@@ -11,4 +11,12 @@ interface ApplicationContract
      * @return void
      */
     public function booted($callback);
+
+
+    /**
+     * Register all of the configured providers.
+     *
+     * @return void
+     */
+    public function registerConfiguredProviders();
 }
