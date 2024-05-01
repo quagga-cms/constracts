@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 interface Response extends ResponseInterface
 {
-    public static function create($data = null, int $status = 200, array $headers = []);
+    public static function create(?string $content = '', int $status = 200, array $headers = []);
 
     public function prepare(Request $request);
 
