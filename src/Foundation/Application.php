@@ -14,6 +14,7 @@ interface Application extends Container
      */
     public function booted($callback);
 
+    public function boot();
 
     public function registerBaseServiceProviders();
 
